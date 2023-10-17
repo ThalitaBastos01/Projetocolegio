@@ -1,0 +1,56 @@
+.introducao {
+
+    align-items: center;
+    background: var(--degrade);
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: 690px;
+    width: 100vw;
+}
+
+.waves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.imagem {
+    height: 50%;
+    margin-bottom: 180px;
+}
+
+.introducao__itens-texto {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    height: 600px;
+    padding: 20px;
+    width: 450px;
+    margin: 150px 0 0 .2px;
+    
+}
+
+.introducao__titulo {
+    font-family: var(--font-principal);
+    font-size: 3.5em;
+    font-weight: 800;
+    color: white;
+
+
+}
+
+.introducao__texto {
+    font-family: var(--font-texto);
+    font-size: 1em;
+    font-weight: 450;
+    text-align: justify;
+    Word-spacing: 1px;
+    line-height: 25px;
+    color: rgba(223, 223, 223, 0.685);
+}
+
+
+

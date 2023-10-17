@@ -1,0 +1,21 @@
+@import url(styles/cabecalho.css);
+@import url(styles/introducao.css);
+
+:root {
+    
+    --branco: #f2f2f2;
+    --vermelho: #8C1C25;
+    --amarelo: #D9A036;
+    --degrade: linear-gradient(97.54deg, #8C1C25  35.49%, #e0768a 165.37%);
+    --azul: #002f52;
+
+    --font-principal: 'Nunito', sans-serif;
+    --font-texto: 'Merriweather Sans', sans-serif;
+}
+
+body {
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 300;
+    
+}
